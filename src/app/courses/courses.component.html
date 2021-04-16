@@ -1,1 +1,17 @@
-<p>courses works!</p>
+<section class="courses">
+    <div class="container">
+        <h1 class="text-center"> All courses </h1>
+
+        <div class="row mt-5"> 
+            <div class="col-lg-3 mb-5" *ngFor="let course of courses">
+                <div class="box shadow-sm">
+                    <img src="{{ course.image }}" width="100%">
+                    <h3 class="mt-2"> {{ course.name }} </h3>
+                    <p class="mt-2"> {{ course.description }} </p>
+                    <button class="btn btn-primary btn-sm mt-2"> Watch now </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

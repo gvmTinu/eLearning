@@ -1,5 +1,10 @@
 .homeContent {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15%;
 }
 
+@media screen and (max-width:600px) {
+    .homeContent h1, a{
+        font-size: medium;
+    }
+}

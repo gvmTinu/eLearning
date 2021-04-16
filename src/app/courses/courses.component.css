@@ -1,0 +1,17 @@
+.courses {
+    background-color: silver;
+    padding: 50px 75px;
+    margin-top: 5%;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .courses {
+        background-color: silver;
+        padding: 50px 10px;
+    }
+}

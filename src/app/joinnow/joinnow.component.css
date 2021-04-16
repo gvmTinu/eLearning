@@ -1,0 +1,16 @@
+.joinnow {
+    background-color: silver;
+    padding: 140px 100px;
+    margin-top: 5%;
+}
+
+.login {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+@media and (max-width:600px) {
+    .joinnow {
+        padding: 140px 50px;
+    } 
+}
